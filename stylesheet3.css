@@ -1,0 +1,120 @@
+/*general styling*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: color oklab(98.235% 0.00416 0.01219);
+    margin: 3px;;
+    padding: 5px;
+
+.flexcontainer{
+    text-align: center;
+    flex-direction:column ;
+    display: flex;
+    border: 10px solid black;
+    height: 300px;
+    width:50%
+}
+.ingredients{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 25px auto;
+}
+
+.ingredients img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: fill;
+}
+
+.welcome{
+    text-align: center;
+    font-size: 50px;
+    color: green;
+}
+.header 
+h1{
+    margin:0 ;
+    font-size: 25px;
+    color: green;
+    text-align: left;
+
+}
+}
+/*header styling*/
+header{
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    background-color:#8b4513;
+    color:rgb(255, 255, 255);
+    padding: 10px;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+/*navigation styling*/
+nav{
+    background-color: hwb(0 34% 12% / 0.863);
+    text-align: center;
+    padding: 15px;
+
+}
+
+nav a{
+    color: white;
+    text-decoration:brown;
+    margin:15px;
+
+nav a:hover{
+    color:hwb(39 0% 0%)
+}    
+}
+/*Main content*/
+main{
+    height: fit-content;
+    width:80%;
+    margin: 20px auto;
+
+}
+
+/*section styling*/
+section{
+    background-color: hwb(0 92% 6%);
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd; 
+    border-radius:10px
+    
+}
+/*image styling*/
+img{
+    object-fit: cover;
+    border:3px solid gold; 
+    margin: 20px auto;
+    display:block;
+    border-radius: 15px;
+    height: 150px;
+    width: 150px;
+}
+/*Footer styling*/
+footer{
+    background-color: #8b4513;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.logo{
+    border: 3px solid orange;
+    object-fit: cover;
+    border-radius: 50px;
+    height: 80px;
+    width: 80px;
+    flex-shrink: 0;
+    margin-right: 15px;
+}
+    
